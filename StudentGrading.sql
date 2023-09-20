@@ -39,3 +39,4 @@ from students s
 join Grades g 
 on (s."total Marks">=g.MinMarks and s."total Marks"<=g.MaxMarks)
 order by s."Student ID"
+
